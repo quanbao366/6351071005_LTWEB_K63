@@ -1,0 +1,100 @@
+﻿/* Tổng quát */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 20px;
+}
+
+/* Phần bên trái */
+.left-container {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+    .left-container h3 {
+        text-align: center;
+        margin-bottom: 15px;
+        font-weight: bold;
+        color: #333;
+    }
+
+/* Phần bên phải */
+.right-content {
+    padding-left: 20px;
+}
+
+.thumbnail {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+    .thumbnail:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .thumbnail img {
+        display: block;
+        margin: 0 auto;
+        border-radius: 5px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .thumbnail h4 {
+        font-size: 18px;
+        color: #007bff;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .thumbnail p {
+        font-size: 14px;
+        color: #666;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+/* Phần đánh giá */
+.rating {
+    text-align: center;
+    margin-top: 10px;
+}
+
+    .rating span {
+        color: #ffcc00;
+        font-size: 18px;
+        margin: 0 2px;
+    }
+
+/* Phần tiêu đề */
+h3, h4 {
+    margin: 10px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Đáp ứng kích thước màn hình nhỏ */
+@media (max-width: 768px) {
+    .left-container {
+        margin-bottom: 15px;
+    }
+
+    .right-content {
+        padding-left: 0;
+    }
+
+    .thumbnail {
+        margin-bottom: 20px;
+    }
+}

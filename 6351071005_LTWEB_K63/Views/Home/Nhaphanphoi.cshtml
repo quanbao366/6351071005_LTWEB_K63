@@ -1,0 +1,12 @@
+﻿﻿@model IEnumerable<_6351071005_LTWEB_K63.Models.NHAPHANPHOI>
+
+<p class="lead"> NHA PHAN PHOI</p>
+
+<div class="list-group">
+    @foreach (var item in Model)
+    {
+        <a href="@Url.Action("SPTheoNPP", "Home", new {id = item.MaNPP})">
+            @item.TenNPP
+        </a>
+    }
+</div>

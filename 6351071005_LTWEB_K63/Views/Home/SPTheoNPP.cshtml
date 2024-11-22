@@ -1,0 +1,35 @@
+﻿﻿@model IEnumerable<_6351071005_LTWEB_K63.Models.XEGANMAY>
+@{
+    ViewBag.Title = "SPTheoNPP";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 style="text-align: center; color: red">Xe theo nha phan phoi</h2>
+
+<div class="row">
+    @foreach (var xe in Model)
+    {
+        <div class="col-sm-4 col-lg-4 col-md-4">
+            <div class="thumbnail">
+                <a href="@Url.Action("Details", "Home", new {id = xe.MaXe})">
+                    <img src="~/images/@xe.Anhbia" alt="Alternate Text" width="80" />
+                    <div>
+                        <br />
+                        <h4 style="text-align: center"> @xe.TenXe</h4>
+                        <p></p>
+                    </div>
+                    <div class="rating">
+                        <p class="pull-right">15 reviews</p>
+                        <p>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    }
+</div>
