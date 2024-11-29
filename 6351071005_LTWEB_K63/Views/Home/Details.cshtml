@@ -6,5 +6,13 @@
 }
 
 <h2>Thong tin chi tiet xe</h2>
-<img src="~/images/@Model.Anhbia" alt="hinh anh xe" width="150" />
 <h3>Ten xe: @Model.TenXe</h3>
+<img src="~/images/@Model.Anhbia"/>
+<p>Mô tả: @Model.Mota</p>
+<h5 style="color: red">Gia ban: @Model.Giaban</h5>
+
+<div id="Datmua">
+    <a href="@Url.Action("Themgiohang", "Giohang", new { @iMaXe = @Model.MaXe, @sUrl = Request.Url.ToString()})">
+        ĐẶT MUA
+    </a>
+</div>

@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using _6351071005_LTWEB_K63.Models;
+using PagedList;
+using PagedList.Mvc;
 
 namespace _6351071005_LTWEB_K63.Controllers
 {
@@ -16,10 +18,13 @@ namespace _6351071005_LTWEB_K63.Controllers
 				.Take(count).ToList();
 		}
 		// GET: Home
-		public ActionResult Index()
+		public ActionResult Index(int ? page)
         {
-			var xemoi = LayXeMoi(5);
-            return View(xemoi);
+			int pageSize = 5;
+			int pageNum = (page ?? 1);
+
+			var xemoi = LayXeMoi(15);
+            return View(xemoi.ToPagedList(pageNum,pageSize));
         }
 
 		public ActionResult LoaiXe()

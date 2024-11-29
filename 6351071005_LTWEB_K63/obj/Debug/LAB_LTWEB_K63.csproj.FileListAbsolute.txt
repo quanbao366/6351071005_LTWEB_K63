@@ -56,3 +56,7 @@ C:\Users\quanb\Documents\Kuzi\6351071005_LTWEB_K63\6351071005_LTWEB_K63\obj\Debu
 C:\Users\quanb\Documents\Kuzi\6351071005_LTWEB_K63\6351071005_LTWEB_K63\obj\Debug\LAB_LTWE.16E8064D.Up2Date
 C:\Users\quanb\Documents\Kuzi\6351071005_LTWEB_K63\6351071005_LTWEB_K63\obj\Debug\6351071005_LTWEB_K63.dll
 C:\Users\quanb\Documents\Kuzi\6351071005_LTWEB_K63\6351071005_LTWEB_K63\obj\Debug\6351071005_LTWEB_K63.pdb
+C:\Users\quanb\Documents\Kuzi\6351071005_LTWEB_K63\6351071005_LTWEB_K63\bin\PagedList.dll
+C:\Users\quanb\Documents\Kuzi\6351071005_LTWEB_K63\6351071005_LTWEB_K63\bin\PagedList.Mvc.dll
+C:\Users\quanb\Documents\Kuzi\6351071005_LTWEB_K63\6351071005_LTWEB_K63\bin\PagedList.xml
+C:\Users\quanb\Documents\Kuzi\6351071005_LTWEB_K63\6351071005_LTWEB_K63\bin\PagedList.Mvc.xml
