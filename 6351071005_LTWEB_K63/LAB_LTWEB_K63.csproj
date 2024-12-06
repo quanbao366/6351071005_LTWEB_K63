@@ -108,12 +108,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\font-awesome.min.css" />
     <Content Include="Content\css\responsive.css" />
     <Content Include="Content\css\style.css" />
     <Content Include="Content\PagedList.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\style.css" />
     <Content Include="Content\templatemo_style.css" />
     <Content Include="Global.asax" />
     <Content Include="images\air_blade.jpg" />
@@ -203,6 +205,7 @@
     </Content>
     <Content Include="Content\css\style.css.map" />
     <Content Include="Content\css\style.scss" />
+    <Content Include="Content\.DS_Store" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
