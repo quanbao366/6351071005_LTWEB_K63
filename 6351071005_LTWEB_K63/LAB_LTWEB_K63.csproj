@@ -139,11 +139,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\GiohangController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Admin.cs">
+      <DependentUpon>Motorcyclestore.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CHITIETDONTHANG.cs">
       <DependentUpon>Motorcyclestore.tt</DependentUpon>
@@ -214,6 +218,14 @@
     <Content Include="Views\User\Dangnhap.cshtml" />
     <Content Include="Views\Giohang\GioHang.cshtml" />
     <Content Include="Views\Giohang\Giohangpartial.cshtml" />
+    <Content Include="Views\Admin\Login.cshtml" />
+    <Content Include="Views\Shared\_LayoutAdmin.cshtml" />
+    <Content Include="Views\Admin\Chitietxe.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\Admin\Xe.cshtml" />
+    <Content Include="Views\Admin\Suaxe.cshtml" />
+    <Content Include="Views\Admin\ThemmoiXe.cshtml" />
+    <Content Include="Views\Admin\Xoaxe.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
